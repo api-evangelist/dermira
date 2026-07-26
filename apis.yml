@@ -1,7 +1,25 @@
 aid: dermira
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dermira.png
 name: Dermira
-description: Dermira is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dermira was a biopharmaceutical company focused on medical dermatology, developing and
+  commercializing treatments for chronic skin conditions such as primary axillary hyperhidrosis
+  (Qbrexza / glycopyrronium) and atopic dermatitis (lebrikizumab). Headquartered in Menlo Park,
+  California and originally backed by venture investors including Canaan Partners, the company went
+  public on NASDAQ (DERM) in 2014 and was acquired by Eli Lilly and Company in 2020. Its assets and
+  operations are now part of Eli Lilly; the dermira.com domain redirects to lilly.com. Dermira did not
+  operate a public developer program, API, or developer portal, so this profile carries company
+  identity only and has no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/dermira/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,29 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: eli-lilly
+x-acquired-year: 2020
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biopharmaceutical
+- Pharmaceuticals
+- Dermatology
+- Healthcare
+- Life Sciences
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
